@@ -146,12 +146,29 @@ a:hover {
     align-items: center;
     flex-direction: column;
     padding: 30px;
+    gap: 4vh;
 }
-.dash1 img{
-    width: 500px;
-
+.section-4-2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 3vh;
 }
-
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+.content{
+    width: 200px;
+}
+.dashboard img {
+    width: 25vw;
+    border-radius: 20px;
+    box-shadow: -1px 0px 20px 6px #918f8f70;
+}
 
 
 .purble{
