@@ -1,6 +1,13 @@
-* {
-    padding: 0;
+
+*{
+    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility ;
+    
+
 }
 
 nav {
@@ -35,7 +42,7 @@ nav a {
 }
 
 .sing-up {
-    background-color: violet;
+    background-color: #6d48e5;
     color: white;
     border: none;
     border-radius: 12px;
@@ -50,7 +57,7 @@ a {
 }
 
 a:hover {
-    color: violet;
+    color: #6d48e5;
 }
 
 /* section-1 */
@@ -102,7 +109,7 @@ a:hover {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-top: 30px;
+    padding: 30px;
     gap: 2vw 2vh;
 
 
@@ -132,3 +139,129 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 4vh;
+}
+.section-4-2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 3vh;
+}
+.dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+.content{
+    width: 200px;
+}
+.dashboard img {
+    width: 25vw;
+    border-radius: 20px;
+    box-shadow: -1px 0px 20px 6px #918f8f70;
+}
+
+
+.purble{
+    text-align: center;
+    color:white;
+    width: 100%;
+    background-color: rgb(109, 72, 229);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8vh 0 ;
+    gap: 50px;
+}
+.boost-titre{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.boost-titre p{
+    font-size: 25px;
+}
+.percentage{
+    display: flex;
+    
+    width: 65%;
+    justify-content: space-between;
+}
+.percentage div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.percentage p{
+    font-size: 15px;
+    font-weight: 600;
+}
+.percentage span{
+    font-weight: 700;
+    font-size: 105px;
+}
+.last-temp a {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.stats{
+    padding: 8vh 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+}
+.image-stats{
+    width: 30vw;
+    border-radius: 20px;
+    box-shadow: -1px 0px 20px 6px #918f8f70;
+}
+.b-stats{
+    gap: 30px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.in-stats{
+    display: flex;
+   
+    gap: 30px;
+    width: 70%;
+  
+}
+.in-stats img{
+    padding-top: 3px;
+    width: 40px;
+    height: 40px;
+}
+.in-stats div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.in-stats p{
+font-weight: 600;
+font-size: 17px;
+}
+.in-stats span{
+    color: #97a6b5;
+    font-weight: 500;
+    background-color: red;
+    }
+
+    
+
+
