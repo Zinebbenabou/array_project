@@ -42,7 +42,7 @@ nav a {
 }
 
 .sing-up {
-    background-color: violet;
+    background-color: #6d48e5;
     color: white;
     border: none;
     border-radius: 12px;
@@ -57,7 +57,7 @@ a {
 }
 
 a:hover {
-    color: violet;
+    color: #6d48e5;
 }
 
 /* section-1 */
