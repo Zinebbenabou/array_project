@@ -420,6 +420,21 @@ font-size: 17px;
             .percentage{
                 flex-direction: column;
             }
+            .percentage span {
+                
+                
+                font-size: 60px;
+            }
+            .purble{
+                gap: 20px;
+            }
+            .boost-titre{
+                font-size: 14px;
+            }
+            .boost-titre p{
+                font-size: 14px;
+            }
+
             .stats{
                 flex-direction: column;
                 
