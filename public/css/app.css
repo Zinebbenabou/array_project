@@ -362,6 +362,7 @@ font-size: 17px;
     
 
     @media (max-width: 480px) {
+     
         body{
             height: fit-content;
             width: 100%; 
@@ -415,6 +416,37 @@ font-size: 17px;
             .icons{
                 width: 90%;
             }
-            
+
+            .percentage{
+                flex-direction: column;
+            }
+            .stats{
+                flex-direction: column;
+                
+            }
+
+            .b-stats{
+                align-items: center;
+            }
+            .footer-div2{
+                width: 90%;
+            }
+
+            .image-stats{
+               width: 60%;
+            }
+            .last-a{
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+            }
+ .footer-last{
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                gap: 20px;
+                align-items: center;
+            }
        
        }
