@@ -265,3 +265,60 @@ font-size: 17px;
     
 
 
+    @media (max-width: 480px) {
+        body{
+            height: fit-content;
+            width: 100%; 
+        
+        }
+        .left-side {
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            display: none;
+            justify-content: center;
+            gap: 10vh;
+            background-color: white; 
+            
+            z-index: 1;
+        }
+
+            #checkbox {
+
+                display: flex;
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: 3;
+            }
+        
+            #checkbox:checked +.left-side {
+        
+                display: flex;
+        
+            }
+            .section-1 img{
+                width: 200px;
+                
+                
+            }
+            .section-2{
+                flex-direction: column;
+                width: 90%;
+            }
+            .section-3-2{
+                flex-direction: column;
+                
+            }
+            .icons{
+                width: 90%;
+            }
+            
+       
+       }
